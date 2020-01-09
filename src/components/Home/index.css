@@ -1,0 +1,136 @@
+.hero-img{
+    z-index: 1;
+}
+
+.hero-title{
+    position: absolute;
+    margin-top: 1.3em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 4.063rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.hero-description{
+    font-size: 1.2em;
+    position: absolute;
+    margin-top: 9em;
+    width: 45%;
+}
+
+.hero-btn{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.25rem !important;
+    font-weight: 700;
+    padding: 15px 40px 15px 40px !important;
+    border: 3px solid #252c63 !important;
+    position: absolute;
+    margin-top: 14em;
+    text-decoration: none;
+    color: black;
+}
+
+
+.hero-btn:hover{
+    background-color: #f9c132;
+    text-decoration: none;
+    color: black;
+}
+
+.headline-section{
+    background-color: #041559;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.icon-holder{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.icon-container{
+    padding: 20px 50px !important;
+}
+
+.icon-text{
+    opacity: .9;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.42;
+    text-align: center;
+    color: rgba(64, 75, 72, .9);
+    margin: 12px 0 0;
+}
+
+.card:hover {
+    transition: all 500ms ease-in-out;
+    transform:  translate(0px, -20px);
+}
+
+.home-ul{
+    padding-left: 5px;
+    list-style: none;
+}
+
+.home-li{
+    margin-bottom: 16px;
+    opacity: 0.9;
+}
+
+.icon-ex{
+    
+}
+
+.bord{
+    border-right: 1px solid #dddddd;
+}
+
+@media all and (max-width: 768px) {
+
+    .bord{
+        border-right: none;
+    }
+
+    .icon-ex{
+        padding-top: 30px;
+    }
+
+    .hero-title{
+        position: absolute;
+        margin-top: 0.7em;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 4.063rem;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 1em;
+        width: 60%;
+    }
+
+    .hero-description{
+        font-size: 1em;
+        position: absolute;
+        margin-top: 12em;
+        width: 53%;
+    }
+
+    .hero-btn{
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 1em !important;
+        font-weight: 700;
+        padding: 15px 40px 15px 40px !important;
+        border: 3px solid #252c63 !important;
+        position: absolute;
+        margin-top: 20em;
+        left: 70%;
+    }
+    
+
+}

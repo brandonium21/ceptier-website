@@ -1,0 +1,143 @@
+.about-page-title{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 4.063rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.about-hero{
+    height: 600px;
+    background-color: #03104a;
+    background-image: url("../../assets/about_gear400.png");
+    background-repeat: no-repeat;
+    background-position: 90% 900%;
+}
+
+.about-container{
+    margin-left: 50px;
+    width: 40%;
+    border-top: 3px solid #f9c132;
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding: 32px 48px;
+}
+
+.about-card{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.motto-container{
+    width: 60%;
+}
+
+.motto-text{
+    font-size: 1.7em;
+}
+
+.get-in-touch{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.get-in-touch-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.get-in-touch-a:link{
+    text-decoration: none;
+    color: black;
+}
+.get-in-touch-a :hover{
+    text-decoration: none;
+    color: #f9c132;
+}
+
+.get-in-touch-a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.gist-col{
+    min-height: 300px;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.gist-col .gist-arrow {
+    z-index: 1000;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    right: -100%;
+    top: 50%;
+    bottom: 0;
+    width: 50px;
+    left: 0;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.gist-col h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+
+.gist-col .gist-col-discription{
+    color: grey;
+    text-align: center;
+    padding: 30px 10% 10px;
+    visibility: hidden;
+}
+
+.gist-col:hover .gist-col-discription{
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.gist-col-icon{
+    height: 80px;
+    width: auto;
+    margin-top: 45px;
+    fill: #1e7e34;
+}
+
+.gist-col-highlight{
+    border-bottom: 7px solid #ffc107;
+}
+
+.gist-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media all and (max-width: 600px) {
+    /* CSS rules here for screens lower than 750px */
+    .about-container{
+        width: 95%;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .about-container{
+        width: 75%;
+        
+    }
+    .motto-text{
+        font-size: 1.0em;
+    }
+    .get-in-touch-container{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

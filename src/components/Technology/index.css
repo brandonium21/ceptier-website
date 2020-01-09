@@ -1,0 +1,31 @@
+.technology-hero{
+    height: 600px;
+    background-color: #03104a;
+    background-image: url("../../assets/tech-background.png");
+    background-repeat: no-repeat;
+    background-position: 90% 110%;
+}
+
+.technology-container{
+    margin-left: 50px;
+    width: 40%;
+    border-top: 3px solid #f9c132;
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding: 32px 48px;
+}
+
+@media all and (max-width: 600px) {
+    /* CSS rules here for screens lower than 750px */
+    .technology-container{
+        width: 95%;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .technology-container{
+        width: 75%;
+        
+    }
+}

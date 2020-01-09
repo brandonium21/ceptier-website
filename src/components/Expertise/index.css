@@ -1,0 +1,16 @@
+.expertise-hero{
+    height: 600px;
+    background-color: #03104a;
+    background-image: url("../../assets/tech-background.png");
+    background-repeat: no-repeat;
+    background-position: 90% 110%;
+}
+
+.expertise-container{
+    margin-left: 50px;
+    width: 40%;
+    border-top: 3px solid #f9c132;
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding: 32px 48px;
+}

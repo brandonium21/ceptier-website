@@ -1,0 +1,61 @@
+.service-hero{
+    height: 600px;
+    background-color: #03104a;
+    background-image: url("../../assets/service_background.png");
+    background-repeat: no-repeat;
+    background-position: 90% ;
+}
+
+.service-container{
+    margin-left: 50px;
+    width: 40%;
+    border-top: 3px solid #f9c132;
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding: 32px 48px;
+}
+
+.team-ul{
+    list-style-type: disc;
+    padding: 15px;
+}
+
+.team-ul li{
+    padding-top: 25px;
+}
+
+.team-description{
+    background-color: #f6f9fc;
+}
+
+.fixed-price-description{
+    background-color: #ffffff;
+}
+
+.service-arrow{
+    visibility: visible;
+    display: block;
+}
+
+@media all and (max-width: 600px) {
+    /* CSS rules here for screens lower than 750px */
+    .service-container{
+        width: 95%;
+        margin-left: 10px;
+    }
+    .service-arrow{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service-container{
+        width: 75%;
+        
+    }
+    .service-arrow{
+        visibility: hidden;
+        display: none;
+    }
+}

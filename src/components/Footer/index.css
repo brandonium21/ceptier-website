@@ -1,0 +1,34 @@
+.footer-link{
+    text-decoration: none;
+    color: rgb(70, 68, 68);
+    font-size: 12px;
+}
+
+.footer-link:hover{
+    color:#f6c149; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.sub-footer{
+    background-color: #f6f9fc;
+}
+
+.footer-copyright-text p {
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+@media all and (max-width: 768px) {
+    /* CSS rules here for screens lower than 750px */
+    .expert{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .footer-container{
+        
+    }
+}
